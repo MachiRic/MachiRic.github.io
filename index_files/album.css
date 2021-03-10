@@ -168,7 +168,7 @@ footer p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #012e3d;
 }
 
 .proj_container:hover .overlay {
