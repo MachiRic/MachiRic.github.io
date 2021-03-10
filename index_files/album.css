@@ -156,6 +156,7 @@ footer p {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 
 .overlay {
@@ -169,6 +170,7 @@ footer p {
   opacity: 0;
   transition: .5s ease;
   background-color: #012e3d;
+  border-radius: 8px;
 }
 
 .proj_container:hover .overlay {
