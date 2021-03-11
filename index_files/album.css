@@ -56,6 +56,7 @@ footer p {
 
   /* Set a specific height */
   min-height: 500px; 
+  width: auto;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -68,6 +69,7 @@ footer p {
   /* The image used 
   background-image: url("../img/Matilda.JPG");*/
   min-height: 800px; 
+  width: auto;
 }
 
 .my-header{
@@ -190,6 +192,10 @@ footer p {
   .text {
     font-size: 15px;
   }
+
+  .my-header{
+    font-size: 70px;
+  }
   
 }
 
@@ -198,4 +204,6 @@ footer p {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
   }
+
+
 }
