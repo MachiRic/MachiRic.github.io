@@ -217,7 +217,7 @@ footer p {
     background-image: url("../img/MatildaJeju.jpeg");
   
     /* Set a specific height */
-    width: 100%;
+    max-width: 100%;
     height: auto;
   
     /* Create the parallax scrolling effect */
@@ -229,7 +229,7 @@ footer p {
   .top-parallax {
     /* The image used 
     background-image: url("../img/Matilda.JPG");*/
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 
