@@ -49,10 +49,9 @@ footer p {
 }
 
 
-
 .parallax {
   /* The image used */
-  background-image: url("../img/MatildaJeju.jpeg");
+  background-image: url("../img/winter_heart.JPG");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -148,6 +147,7 @@ footer p {
   position: relative;
   width: 100%;
   margin-top: 5%;
+  margin-bottom: 15%;
 }
 
 .image {
@@ -167,7 +167,7 @@ footer p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #012e3d;
+  background-color: #8f290ab9;
   border-radius: 8px;
 }
 
@@ -177,7 +177,7 @@ footer p {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -186,7 +186,6 @@ footer p {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
 
 @media (max-width: 991px) {
   .text {
@@ -214,19 +213,8 @@ footer p {
 @supports (-webkit-touch-callout: none) {
   /* CSS specific to iOS devices */ 
 
-  .parallax {
-    /* The image used */
-    background-image: url("../img/MatildaJeju.jpeg");
   
-    /* Set a specific height */
-    /*max-width: 100%;*/
-    max-height: 50px;
 
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: 100% auto;
-
-  }
   
   .top-parallax {
     /* The image used 
